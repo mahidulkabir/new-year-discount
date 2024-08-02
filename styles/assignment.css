@@ -1,0 +1,33 @@
+/* all common styles */
+*{
+    margin: 0;
+}
+/* header section styles */
+
+.party-container{
+      background: url(../resources/Banner\ Image.png);
+    margin: 50px 140px 70px 140px;
+    background-size: 100%; 
+}
+.party-text-container{
+    background: linear-gradient(rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.1));
+    border-radius: 15px;
+     text-align: center;
+    background-size:100%;
+    padding: 175px 340px;   
+}
+.party-title{
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF; 
+    font-family: 'Merriweather';   
+}
+.party-text{
+    font-weight: 900;
+    font-size: 72px;
+    color: #FFFFFF;
+    font-family: 'Merriweather';
+}
+/* main section styles */
+
