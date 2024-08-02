@@ -8,6 +8,7 @@
       background: url(../resources/Banner\ Image.png);
     margin: 50px 140px 70px 140px;
     background-size: 100%; 
+    background-repeat: no-repeat;
 }
 .party-text-container{
     background: linear-gradient(rgba(0, 0, 0, 1),
@@ -30,4 +31,36 @@
     font-family: 'Merriweather';
 }
 /* main section styles */
+.main-section-type-1{
+    padding: 0 400px;
+
+}
+.main-section-type-1-section{
+    text-align: center;
+}
+.type-1-title{
+    font-family:'inter';
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+.type-1-description{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight:500;
+    color: #FF0000;
+    margin-bottom: 18px;
+}
+.type-1-description-2{
+    font-family: 'inter';
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
+.type-1-happy-new-year{
+    width: 800px;
+    height: 500px;
+}
 
