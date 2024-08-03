@@ -106,7 +106,7 @@
 /* address section styles */
 .address-section{
     margin: 120px 140px;
-    background: linear-gradient(pink,white);
+    background: linear-gradient(rgba(255, 192, 203, 0.444),white);
     border-radius: 10px;
 }
 .address-container{
@@ -137,4 +137,65 @@
    border: 0;
    border-radius: 8px;
 
+}
+/* coming soon section style */
+.coming-soon-container{
+    display: flex;
+    align-items: center;
+    
+    
+    margin:0px 140px 120px 140px;
+    
+}
+.coming-soon-column{
+    text-align: left;
+    
+}
+.coming-soon-text{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    padding: 104px 256px 15px 0;
+}
+.coming-soon-title{
+    font-size: 48px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    color: #070211;
+    padding: 0 135px 22px 0;
+}
+.coming-soon-description{
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 17px;
+    color: #070211;
+    padding: 0 70px 104px 0;
+    
+}
+.coming-soon-column-img{
+    
+}
+#img-circle{
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+    
+    margin-right: 120px;
+    
+}
+.coming-soon-2024{
+    font-family: 'inter';
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    padding-top: 120px;
+}
+.coming-soon-2024-description{
+    font-family: 'inter';
+    font-size:16px;
+    font-weight: 400;
+    color: #070211;
+    margin: 16px 0 48px 0;
+    text-align: left;
 }
