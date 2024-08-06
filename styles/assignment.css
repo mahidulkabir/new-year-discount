@@ -67,15 +67,11 @@
 
 
 .midnight-party{
-    
-    background:linear-gradient(90deg,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)),url(../resources/Vectorrr.png);
-    
+    display:flex; 
+    background:linear-gradient(90deg,rgba(0, 0, 0, 1.0),rgba(0, 0, 0, 0)),url(../resources/Vectorrr.png);   
     border-radius: 10px;
     margin: 120px 140px;
-    display: flex; 
-    
-
-}
+    }
 
 .party-column-1-title{
     font-family: 'merriweather';
@@ -141,48 +137,44 @@
 /* coming soon section style */
 .coming-soon-container{
     display: flex;
-    align-items: center;
-    
-    
+    justify-content: space-around;
     margin:0px 140px 120px 140px;
     
 }
-.coming-soon-column{
-    text-align: left;
-    
+.column-1{
+    width: 390px;
+}
+.column-2{
+    width: 460px;
+}
+.column-3{
+    width: 270px;
 }
 .coming-soon-text{
     font-family: 'inter';
     font-size: 24px;
     font-weight: 500;
     color: #FF0000;
-    padding: 104px 256px 15px 0;
+     margin: 104px 0px 15px 0;    
 }
 .coming-soon-title{
     font-size: 48px;
     font-family: 'Merriweather';
     font-weight: 900;
     color: #070211;
-    padding: 0 135px 22px 0;
+    margin: 20px;
+    margin-left: 0;
 }
 .coming-soon-description{
     font-family: 'inter';
     font-weight: 400;
     font-size: 17px;
     color: #070211;
-    padding: 0 70px 104px 0;
-    
-}
-.coming-soon-column-img{
-    
 }
 #img-circle{
     border: 10px solid #FF0000;
     border-radius: 50%;
     padding: 20px;
-    
-    margin-right: 120px;
-    
 }
 .coming-soon-2024{
     font-family: 'inter';
@@ -190,6 +182,8 @@
     font-weight: bold;
     color: #FF0000;
     padding-top: 120px;
+    margin-right: 100px;
+    
 }
 .coming-soon-2024-description{
     font-family: 'inter';
@@ -198,4 +192,78 @@
     color: #070211;
     margin: 16px 0 48px 0;
     text-align: left;
+}
+
+
+/* discount section styles */
+
+
+.discount-section{
+    margin: 120px 140px;
+}
+.discount-title{
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 24px;
+    padding: 1px 450px 16px 500px;
+    color: #070211;
+    
+}
+.discount-50{
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+    padding: 0 250px 25px 250px;
+}
+.holidays{
+    color: #FF0000;
+}
+.discount-description{
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 500;
+    color: #070211;
+    padding: 0 120px 60px 120px;
+    text-align: center;
+}
+/* sale pics section styles  */
+.sale-pic{
+  
+    
+
+    
+}
+.sale-pic-container{
+    margin: 0 140px 120px 140px;
+    /* border: 1px solid; */
+    min-width: 1320px;   
+    min-height: 665px;
+    position: relative;
+    
+}
+.sale-red-rectangle{
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+.sale-surprise-box{
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+
+}
+.sale-surprise-girl{
+    position: absolute;
+    right: 0;
+    top: 3px;
+
+}
+.sale-discount-logo{
+    position: absolute;
+    right: 275px;
+    top: 135px;
+    transform: rotate(-10deg);
+
 }
