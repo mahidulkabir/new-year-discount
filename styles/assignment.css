@@ -347,6 +347,7 @@
     padding: 24px 56px;
     background-color: #FF0000;
     margin-left: 0;
+    border: 0;
 }
 /* footer section styles */
 footer{
@@ -370,10 +371,10 @@ footer{
 text-align: center;
 }
 .footer-text-1{
-    padding: 120px 120px 98px 140px;
+    padding: 120px 120px 50px 140px;
 }
 .footer-top-telephone{
-    padding: 120px 275px 98px 106px;
+    padding: 120px 275px 50px 106px;
 }
 hr{
     margin: 50px 140px;
@@ -385,8 +386,8 @@ hr{
     padding: 10px;
 }
 .footer-bottom-1{
-    padding: 100px 200px 120px 140px;
+    padding: 50px 200px 120px 140px;
 }
 .footer-bottom-2{
-    padding: 100px 140px 120px 345px;
+    padding: 50px 140px 120px 345px;
 }
