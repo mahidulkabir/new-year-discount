@@ -235,9 +235,9 @@
     
 }
 .sale-pic-container{
-    margin: 0 140px 120px 140px;
+    margin: 120px 140px;
     /* border: 1px solid; */
-    min-width: 1320px;   
+    min-width: 1000px;   
     min-height: 665px;
     position: relative;
     
@@ -245,6 +245,7 @@
 .sale-red-rectangle{
     position: absolute;
     bottom: 0;
+    width: 1240px;
     
     
 }
@@ -265,5 +266,92 @@
     right: 275px;
     top: 135px;
     transform: rotate(-10deg);
+}
+/* Portfolio section part one styles */
+.portfolio-1st-container{
+    margin: 120px 420px 50px 140px;
+}
+
+.port-1st-text{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF0000;
+
+}
+.port-2nd-title{
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin: 20px 0 20px 0;
+}
+.port-1st-description{
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+/* portfolio grid section styles */
+.portfolio-images img{
+    width: 380px;
+}
+.portfolio-grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+    gap: 30px;
+    margin: 0 140px 0   140px;
+}   
+.portfolio-images:hover{
+    transform: scale(1.05);
+}
+/* subscribe section styles */
+.sub-image{
+    margin-top: 80px;
+}
+.subscribe-container{
+    background-color: rgba(255, 182, 193, 0.179);
+    margin: 120px 140px;
+    border-radius: 15px;
+    text-align: center;
+}
+.sub-title{
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.sub-description{
+    font-family: 'inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211;
+    margin: 0 210px 48px 210px;
+}
+.subscribe-input-text{
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    color: #070211;
+    padding: 25px 277px 25px 30px;
+    border: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-bottom: 80px;
+    position: relative;
+    margin-right: 0;
+}
+.subscribe-button{
+    font-family:'inter';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 24px 56px;
+    background-color: #FF0000;
+    margin-left: 0;
 
 }
