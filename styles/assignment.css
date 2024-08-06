@@ -228,12 +228,6 @@
     text-align: center;
 }
 /* sale pics section styles  */
-.sale-pic{
-  
-    
-
-    
-}
 .sale-pic-container{
     margin: 120px 140px;
     /* border: 1px solid; */
@@ -353,5 +347,46 @@
     padding: 24px 56px;
     background-color: #FF0000;
     margin-left: 0;
-
+}
+/* footer section styles */
+footer{
+    background-color: #070211;
+}
+.footer-text{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight:500;
+    color: #FFFFFF;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between; 
+}
+.footer-mid{
+text-align: center;
+}
+.footer-text-1{
+    padding: 120px 120px 98px 140px;
+}
+.footer-top-telephone{
+    padding: 120px 275px 98px 106px;
+}
+hr{
+    margin: 50px 140px;
+    border: none;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.088); 
+}
+.footer-mid-img{
+    padding: 10px;
+}
+.footer-bottom-1{
+    padding: 100px 200px 120px 140px;
+}
+.footer-bottom-2{
+    padding: 100px 140px 120px 345px;
 }
